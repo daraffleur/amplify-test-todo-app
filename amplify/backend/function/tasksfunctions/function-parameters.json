@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "storage": {
+      "tasks": [
+        "create",
+        "read",
+        "update",
+        "delete"
+      ]
+    }
+  },
+  "lambdaLayers": [],
+  "environmentVariableList": [
+    {
+      "cloudFormationParameterName": "apikey",
+      "environmentVariableName": "apikey"
+    }
+  ]
+}

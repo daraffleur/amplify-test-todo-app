@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "paths": {
+    "/tasks": {
+      "name": "/tasks",
+      "lambdaFunction": "tasksfunctions",
+      "permissions": {
+        "setting": "open"
+      }
+    }
+  }
+}
